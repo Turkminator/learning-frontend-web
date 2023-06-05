@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+     
+      body {
+        background-color: gray;
+      }
+
+      .application,
+      .save {
+        cursor: pointer;
+        border-radius: 17px;
+        font-weight: bold;
+        font-family: Arial;
+      }
+      .application {
+        margin-right: 5px;
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 240px;
+        transition: background-color 3s;
+      }
+      .application:hover {
+        background-color: rgb(4, 49, 95);
+      }
+      .save {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        border-color: rgb(10, 102, 194);
+        height: 40px;
+        width: 80px;
+        border: solid;
+        border-width: 1px;
+        transition: background-color 0.15s, border-width 0.15s;
+      }
+      .save:hover {
+        background-color: rgb(155, 201, 247);
+        border-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="application">Apply on company website</button>
+    <button class="save">Save</button>
+  </body>
+</html>
