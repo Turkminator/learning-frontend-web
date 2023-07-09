@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .user-card-grid{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      gap: 20px;
+      margin: 20px 0px 0px 10px;
+    }
+    .user-card{
+      width: 200px;
+      object-fit: contain;
+      align-items: center;
+      height: 350px;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    img{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .name{
+      margin-left: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    button{
+      margin-top: 20px;
+      margin-left: 5px;
+      background-color: rgb(57, 117, 233);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+    }
+    .mutual-friends{
+      margin-top: 10px;
+      margin-left: 10px;
+      display: grid;
+      grid-template-columns: 25px 60px;
+      column-gap: 10px;
+      align-items: center;
+    }
+    .mut-frnd{
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+    }
+    .friend-count{
+      font-size: 15px;
+      color: rgb(175, 175, 175);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-card-grid">
+    <div class="user-card 1st-user">
+      <img src="images/Facts-About-Ginger-CatsHERO.webp">
+      <p class="name">Oliver</p>
+      <div class="mutual-friends">
+        <img class="mut-frnd" src="images/chihuhauha.jpg">
+        <p class="friend-count"> 2 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+    <div class="user-card 1st-user">
+      <img src="images/birb.jpg">
+      <p class="name">Mimi</p>
+      <div class="mutual-friends">
+        <img class="mut-frnd" src="images/chihuhauha.jpg">
+        <p class="friend-count"> 3 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+    <div class="user-card 1st-user">
+      <img src="images/dog.jpg">
+      <p class="name">Rex</p>
+      <div class="mutual-friends">
+        <img class="mut-frnd" src="images/chihuhauha.jpg">
+        <p class="friend-count"> 4 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+  </div>
+</body>
+</html>
