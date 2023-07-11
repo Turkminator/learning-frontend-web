@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .profile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+      }
+
+      img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .about{
+        display: flex;
+        flex-direction: column;
+        column-gap: 4px;
+        row-gap: 15px;
+        flex: 1;
+      }
+
+      p{
+        font-size: 25px;
+      }
+
+      .name{
+        font-weight: bold;
+      }
+      
+      .species, .ispop{
+        color: rgb(156, 156, 156);
+      }
+
+      button{
+        border-style: none;
+        background-color: rgb(64, 147, 240);
+        color: white;
+        font-size: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="images/Facts-About-Ginger-CatsHERO.webp">
+        <div class="about">
+          <p class="name">Oliver</p>
+          <p class="species">the cat</p>
+          <p class="ispop">Popular</p>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="profile">
+        <img src="images/birb.jpg">
+        <div class="about">
+          <p class="name">Cabbar</p>
+          <p class="species">Başgan</p>
+          <p class="ispop">Asil</p>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="profile">
+        <img src="images/dog.jpg">
+        <div class="about">
+          <p class="name">Concon</p>
+          <p class="species">Entel</p>
+          <p class="ispop">Popular</p>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

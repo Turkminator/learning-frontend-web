@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+      }
+
+      .container{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(225, 225, 225);
+        border-width: 1.5px;
+      }
+      .home{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px 8px 15px;
+      }
+
+      .count{
+        background-color: rgb(65, 108, 235);
+        color: white;
+        padding: 2px 10px;
+        border-radius: 11px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="home">
+        <p>Home</p>
+        <div class="count">14</div>
+      </div>
+
+      <div class="home">
+        <p>Notifications</p>
+        <div class="count">3</div>
+      </div>
+
+      <div class="home">
+        <p>Messages</p>
+        <div class="count">5</div>
+      </div>
+    </div>
+  </body>
+</html>
