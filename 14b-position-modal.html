@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body{
+        height: 3000px;
+      }
+      .side-bar{
+        position: fixed;
+        width: 100px;
+        background-color: rgb(56, 126, 35);
+        color: white;
+        right: 0;
+        bottom: 0;
+        top: 0;
+      }
+      .container{
+        display: flex;
+        position: fixed;
+        background-color: rgba(0,0,0,0.8);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .modal{
+        background-color: white;
+        width: 300px;
+        height: 150px;
+        border-radius: 8px;
+        line-height: 25px;
+      }
+
+      .title{
+        margin-left: 25px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 25px;
+      }
+
+      .modal-itself{
+        margin-left: 25px;
+        margin-top: 10px;
+      }
+
+      button{
+        margin-left: 25px;
+        margin-top: 15px;
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side-bar">right sidebar</div>
+    <div class="container">
+
+      <div class="modal">
+        <p class="title">Modal Title</p>
+        <p class="modal-itself">This is a modal</p>
+        <button>Close</button>
+      </div>
+    </div>
+  </body>
+</html>
