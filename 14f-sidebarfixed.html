@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+      }
+
+      body{
+        height: 3000px;
+      }
+
+      .container{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        bottom: 0;
+        top: 0;
+      }
+
+      .channel-pics{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 34, 38);
+        width: 70px;
+        align-items: center;
+        padding-top: 8px;
+      }
+
+      img{
+        margin-top: 7px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      .channel-content{
+        background-color: rgb(47, 49, 53);
+        width: 200px;
+      }
+
+      .header{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 20px;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .head{
+        color: white;
+        font-size: 15px;
+      }
+
+      .add{
+        color:rgb(144, 146, 150);
+        margin-right: 15px;
+        font-size: 30px;
+      }
+
+      .topics{
+        margin-left: 20px;
+        color:rgb(144, 146, 150);
+        line-height: 34px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="channel-pics">
+        <img src="images/birb.jpg" class="1">
+        <img src="images/chihuhauha.jpg" class="2">
+        <img src="images/dog.jpg" class="3">
+      </div>
+
+      <div class="channel-content">
+
+        <div class="header">
+          <div class="head">INFO</div>
+          <div class="add">+</div>
+        </div>
+
+        <div class="topics">
+          <div class="room1"># new-videos</div>
+          <div class="room2"># updates</div>
+          <div class="room3"># faq</div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

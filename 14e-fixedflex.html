@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body{
+        height: 3000px;
+      }
+      img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .container{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        justify-content: space-between;
+      }
+      .profile{
+        display: flex;
+        margin-left: 50px;
+        align-items: center;
+      }
+
+      .name{
+        margin-left: 20px;
+        font-weight: bold;
+      }
+
+      .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-right: 50px;
+      }
+
+      .add{
+        border: none;
+        background-color: rgb(57, 114, 219);
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+      }
+
+      .message{
+        font-weight: bold;
+        border: none;
+        background-color: rgb(228, 229, 234);
+        color: black;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="images/Facts-About-Ginger-CatsHERO.webp">
+        <p class="name">Oliver Cat</p>
+      </div>
+
+      <div class="buttons">
+        <button class="add">
+          Add Friend
+        </button>
+        <button class="message">
+          Message
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
