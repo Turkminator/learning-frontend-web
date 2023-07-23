@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        background-color: gray;
+        height: 3000px;
+      }
+      .parent{
+        background-color: rgb(75, 75, 248);
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        position: relative;
+      }
+
+      .one{
+        background-color: greenyellow;
+        height: 100px;
+        position: absolute;
+        margin: 0px 15px;
+        left: 20px;
+        top: 20px;
+        right: 20px;
+      }
+
+      .two{
+        background-color: orangered;
+        height: 100px;
+        margin: 0px 15px;
+      }
+
+      .three{
+        background-color: plum;
+        height: 100px;
+        margin: 0px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      Parent
+      <div class="one">One</div>
+      <div class="two">Two</div>
+      <div class="three">Three</div>
+    </div>
+  </body>
+</html>
