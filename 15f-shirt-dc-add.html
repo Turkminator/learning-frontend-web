@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: gray;
+    }
+
+    .container{
+      display: inline-block;
+      position: relative;
+    }
+
+    .discount{
+      background-color: black;
+      color: white;
+      position: absolute;
+      top: 15px;
+      right: 0px;
+      padding: 4px;
+    }
+
+    img{
+      width: 350px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .opak{
+      position: absolute;
+      top: 300px;
+      background-color: white;
+      bottom: 4px;
+      right: 0;
+      left: 0;
+      opacity: 0.45;
+    }
+
+    .btn{
+      position: absolute;
+      bottom: 40px;
+      left: 120px;
+      border-style: solid;
+      border-width: 1px;
+      padding: 8px 20px;
+      background-color: white;
+      
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/Mens_Corporate_Shirt_Long_Sleeve_Float_Navy-875x1000.jpg">
+    <div class="discount">20% OFF</div>
+    <div class="opak"></div>
+    <div class="btn">Add to Cart</div>
+  </div>
+</body>
+</html>
